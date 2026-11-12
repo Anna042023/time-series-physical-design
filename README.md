@@ -81,16 +81,9 @@ The included Python code checks the local semantics of the problem on small inpu
 - Exhaustive optimization for hard-budget and memory-price objectives.
 - Unit tests that compare reduced catalogs against the original search space.
 
-**Scope:** This is an independently written small-instance reference, **not the full Replay-Core optimizer**. The source archive supplied for this GitHub package does not contain the paper's native replay-core R1–R4 reducer, tree-decomposition DP, MILP benchmark drivers, or database-engine integration. Consequently, these commands do not reproduce the paper's runtime figures or its complete experimental tables.
 
 ## 📊 Data and recorded results
 
 `data/examples/` contains synthetic inputs for code checks. `data/archived_results/` contains three earlier, saved experiment tables/records. The latter are retained for reference and are not needed to execute the Python tests.
 
 See [data/README.md](data/README.md) for file provenance and limitations. Raw historian traces and full experiment-generation scripts were not included in the supplied source archive.
-
-## 📄 Paper
-
-*Replay-Core Storage Optimization for Joint Historical Queries in Time-Series Databases*.
-
-The manuscript, LaTeX sources, diagnostic figures, build logs, and duplicate historical snapshots have been excluded from this repository package.
