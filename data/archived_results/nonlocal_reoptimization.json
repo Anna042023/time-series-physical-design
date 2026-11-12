@@ -1,0 +1,1552 @@
+{
+  "experiment": "NONLOCAL_SYNTHETIC_CROSS_COMPONENT_REOPTIMIZATION",
+  "predeclared_patterns": [
+    "skip2",
+    "hub"
+  ],
+  "n_total": 36,
+  "n_certified": 36,
+  "by_pattern": {
+    "skip2": {
+      "n": 18,
+      "greedy": {
+        "optimal_count": 15,
+        "median_ratio": 1.0,
+        "min_ratio": 0.9615384615384616
+      },
+      "exchange": {
+        "optimal_count": 16,
+        "median_ratio": 1.0,
+        "min_ratio": 0.9764705882352941
+      }
+    },
+    "hub": {
+      "n": 18,
+      "greedy": {
+        "optimal_count": 13,
+        "median_ratio": 1.0,
+        "min_ratio": 0.9310344827586207
+      },
+      "exchange": {
+        "optimal_count": 17,
+        "median_ratio": 1.0,
+        "min_ratio": 0.9864864864864865
+      }
+    }
+  },
+  "rows": [
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 28,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 19.0,
+      "bundle_greedy_utility": 19.0,
+      "bundle_exchange_utility": 19.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 31,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 18.0,
+      "bundle_greedy_utility": 18.0,
+      "bundle_exchange_utility": 18.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 35,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 14.0,
+      "bundle_greedy_utility": 14.0,
+      "bundle_exchange_utility": 14.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 38,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 26.0,
+      "bundle_greedy_utility": 25.0,
+      "bundle_exchange_utility": 26.0,
+      "greedy_ratio": 0.9615384615384616,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 42,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 25.0,
+      "bundle_greedy_utility": 25.0,
+      "bundle_exchange_utility": 25.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 4,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 47,
+      "contract_count": 13,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 20.999999999999993,
+      "bundle_greedy_utility": 21.0,
+      "bundle_exchange_utility": 21.0,
+      "greedy_ratio": 1.0000000000000004,
+      "exchange_ratio": 1.0000000000000004
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 60,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 60.0,
+      "bundle_greedy_utility": 60.0,
+      "bundle_exchange_utility": 60.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 66,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 58.0,
+      "bundle_greedy_utility": 58.0,
+      "bundle_exchange_utility": 58.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 69,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 46.0,
+      "bundle_greedy_utility": 46.0,
+      "bundle_exchange_utility": 46.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 80,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 71.0,
+      "bundle_greedy_utility": 71.0,
+      "bundle_exchange_utility": 71.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 88,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 72.0,
+      "bundle_greedy_utility": 72.0,
+      "bundle_exchange_utility": 72.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 8,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 92,
+      "contract_count": 29,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 59.0,
+      "bundle_greedy_utility": 59.0,
+      "bundle_exchange_utility": 59.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 90,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 93.0,
+      "bundle_greedy_utility": 93.0,
+      "bundle_exchange_utility": 93.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 98,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 85.0,
+      "bundle_greedy_utility": 83.0,
+      "bundle_exchange_utility": 83.0,
+      "greedy_ratio": 0.9764705882352941,
+      "exchange_ratio": 0.9764705882352941
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 99,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 81.0,
+      "bundle_greedy_utility": 80.0,
+      "bundle_exchange_utility": 80.0,
+      "greedy_ratio": 0.9876543209876543,
+      "exchange_ratio": 0.9876543209876543
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 120,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 110.0,
+      "bundle_greedy_utility": 110.0,
+      "bundle_exchange_utility": 110.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 130,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 105.0,
+      "bundle_greedy_utility": 105.0,
+      "bundle_exchange_utility": 105.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "skip2",
+      "n": 12,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 132,
+      "contract_count": 45,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          10
+        ],
+        [
+          9,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 100.0,
+      "bundle_greedy_utility": 100.0,
+      "bundle_exchange_utility": 100.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 28,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 25.0,
+      "bundle_greedy_utility": 25.0,
+      "bundle_exchange_utility": 25.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 31,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 29.0,
+      "bundle_greedy_utility": 27.0,
+      "bundle_exchange_utility": 29.0,
+      "greedy_ratio": 0.9310344827586207,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 35,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 19.0,
+      "bundle_greedy_utility": 19.0,
+      "bundle_exchange_utility": 19.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 38,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 32.0,
+      "bundle_greedy_utility": 31.0,
+      "bundle_exchange_utility": 32.0,
+      "greedy_ratio": 0.96875,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 42,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 36.0,
+      "bundle_greedy_utility": 36.0,
+      "bundle_exchange_utility": 36.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 4,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 47,
+      "contract_count": 14,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 27.00000000000002,
+      "bundle_greedy_utility": 27.0,
+      "bundle_exchange_utility": 27.0,
+      "greedy_ratio": 0.9999999999999992,
+      "exchange_ratio": 0.9999999999999992
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 60,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 58.0,
+      "bundle_greedy_utility": 58.0,
+      "bundle_exchange_utility": 58.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 66,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 62.0,
+      "bundle_greedy_utility": 62.0,
+      "bundle_exchange_utility": 62.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 69,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 54.000000000000014,
+      "bundle_greedy_utility": 54.0,
+      "bundle_exchange_utility": 54.0,
+      "greedy_ratio": 0.9999999999999998,
+      "exchange_ratio": 0.9999999999999998
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 80,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 66.0,
+      "bundle_greedy_utility": 66.0,
+      "bundle_exchange_utility": 66.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 88,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 74.0,
+      "bundle_greedy_utility": 73.0,
+      "bundle_exchange_utility": 73.0,
+      "greedy_ratio": 0.9864864864864865,
+      "exchange_ratio": 0.9864864864864865
+    },
+    {
+      "pattern": "hub",
+      "n": 8,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 92,
+      "contract_count": 30,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 68.0,
+      "bundle_greedy_utility": 68.0,
+      "bundle_exchange_utility": 68.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.24,
+      "seed": 11,
+      "cost_budget": 90,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 87.0,
+      "bundle_greedy_utility": 87.0,
+      "bundle_exchange_utility": 87.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.24,
+      "seed": 29,
+      "cost_budget": 98,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 95.0,
+      "bundle_greedy_utility": 95.0,
+      "bundle_exchange_utility": 95.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.24,
+      "seed": 47,
+      "cost_budget": 99,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 97.0,
+      "bundle_greedy_utility": 97.0,
+      "bundle_exchange_utility": 97.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.32,
+      "seed": 11,
+      "cost_budget": 120,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 102.00000000000003,
+      "bundle_greedy_utility": 101.0,
+      "bundle_exchange_utility": 102.0,
+      "greedy_ratio": 0.9901960784313723,
+      "exchange_ratio": 0.9999999999999997
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.32,
+      "seed": 29,
+      "cost_budget": 130,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 115.0,
+      "bundle_greedy_utility": 115.0,
+      "bundle_exchange_utility": 115.0,
+      "greedy_ratio": 1.0,
+      "exchange_ratio": 1.0
+    },
+    {
+      "pattern": "hub",
+      "n": 12,
+      "f": 0.32,
+      "seed": 47,
+      "cost_budget": 132,
+      "contract_count": 46,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          11
+        ]
+      ],
+      "optimality_certified": true,
+      "certified_optimum": 116.0,
+      "bundle_greedy_utility": 114.0,
+      "bundle_exchange_utility": 116.0,
+      "greedy_ratio": 0.9827586206896551,
+      "exchange_ratio": 1.0
+    }
+  ],
+  "caveat": "Adjacent bridge contracts plus nonlocal edges create cycles for n>=4; synthetic inputs, not observed requests or native IoTDB. Certified MILP and pre-fixed reoptimized heuristics."
+}

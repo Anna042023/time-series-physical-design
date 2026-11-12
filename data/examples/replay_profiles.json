@@ -1,0 +1,19 @@
+{
+  "budget": 9,
+  "sensors": {
+    "speed": [
+      {"id":"cheap", "cost":2, "segments":[[0,10,1]]},
+      {"id":"medium", "cost":4, "segments":[[0,10,2]]},
+      {"id":"medium_copy", "cost":5, "segments":[[0,10,2]]}
+    ],
+    "volume": [
+      {"id":"cheap", "cost":2, "segments":[[0,10,1]]},
+      {"id":"full", "cost":5, "segments":[[0,10,2]]}
+    ]
+  },
+  "incidents": [
+    {"id":"morning", "weight":3, "requirements":{"speed":[[0,4,2]]}},
+    {"id":"peak", "weight":8, "requirements":{"speed":[[0,8,2]],"volume":[[0,8,2]]}},
+    {"id":"evening", "weight":5, "requirements":{"volume":[[0,10,2]]}}
+  ]
+}

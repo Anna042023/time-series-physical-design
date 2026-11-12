@@ -1,0 +1,57 @@
+{
+  "status": "small_instance_reference_only",
+  "raw": {
+    "status": "optimal_in_enumerated_space",
+    "search_space": 6,
+    "compression": "none",
+    "mode": "budget",
+    "score": 16,
+    "utility": 16,
+    "cost": 9,
+    "covered_incidents": [
+      "morning",
+      "peak",
+      "evening"
+    ],
+    "selection": {
+      "speed": "medium",
+      "volume": "full"
+    }
+  },
+  "quotient": {
+    "status": "optimal_in_enumerated_space",
+    "search_space": 4,
+    "compression": "quotient",
+    "mode": "budget",
+    "score": 16,
+    "utility": 16,
+    "cost": 9,
+    "covered_incidents": [
+      "morning",
+      "peak",
+      "evening"
+    ],
+    "selection": {
+      "speed": "medium",
+      "volume": "full"
+    }
+  },
+  "skyline": {
+    "status": "optimal_in_enumerated_space",
+    "search_space": 4,
+    "compression": "skyline",
+    "mode": "budget",
+    "score": 16,
+    "utility": 16,
+    "cost": 9,
+    "covered_incidents": [
+      "morning",
+      "peak",
+      "evening"
+    ],
+    "selection": {
+      "speed": "medium",
+      "volume": "full"
+    }
+  }
+}

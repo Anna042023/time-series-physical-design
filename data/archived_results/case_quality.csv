@@ -1,0 +1,109 @@
+family,method,case,ratio
+Adjacent bridge,Greedy,1,1.0
+Adjacent bridge,Greedy,2,0.8571428571428571
+Adjacent bridge,Greedy,3,1.0
+Adjacent bridge,Greedy,4,0.9545454545454546
+Adjacent bridge,Greedy,5,0.9499999999999998
+Adjacent bridge,Greedy,6,1.0
+Adjacent bridge,Greedy,7,1.0
+Adjacent bridge,Greedy,8,0.9705882352941176
+Adjacent bridge,Greedy,9,1.0
+Adjacent bridge,Greedy,10,0.9545454545454546
+Adjacent bridge,Greedy,11,1.0
+Adjacent bridge,Greedy,12,0.9761904761904762
+Adjacent bridge,Greedy,13,1.0
+Adjacent bridge,Greedy,14,0.9818181818181818
+Adjacent bridge,Greedy,15,1.0
+Adjacent bridge,Greedy,16,0.9852941176470589
+Adjacent bridge,Greedy,17,1.0
+Adjacent bridge,Greedy,18,1.0
+Adjacent bridge,Exchange,1,1.0
+Adjacent bridge,Exchange,2,1.0
+Adjacent bridge,Exchange,3,1.0
+Adjacent bridge,Exchange,4,1.0
+Adjacent bridge,Exchange,5,0.9499999999999998
+Adjacent bridge,Exchange,6,1.0
+Adjacent bridge,Exchange,7,1.0
+Adjacent bridge,Exchange,8,0.9705882352941176
+Adjacent bridge,Exchange,9,1.0
+Adjacent bridge,Exchange,10,0.9772727272727273
+Adjacent bridge,Exchange,11,1.0
+Adjacent bridge,Exchange,12,1.0
+Adjacent bridge,Exchange,13,1.0
+Adjacent bridge,Exchange,14,1.0
+Adjacent bridge,Exchange,15,1.0
+Adjacent bridge,Exchange,16,0.9852941176470589
+Adjacent bridge,Exchange,17,1.0
+Adjacent bridge,Exchange,18,1.0
+Skip-two,Greedy,1,1.0
+Skip-two,Greedy,2,1.0
+Skip-two,Greedy,3,1.0
+Skip-two,Greedy,4,0.9615384615384616
+Skip-two,Greedy,5,1.0
+Skip-two,Greedy,6,1.0000000000000004
+Skip-two,Greedy,7,1.0
+Skip-two,Greedy,8,1.0
+Skip-two,Greedy,9,1.0
+Skip-two,Greedy,10,1.0
+Skip-two,Greedy,11,1.0
+Skip-two,Greedy,12,1.0
+Skip-two,Greedy,13,1.0
+Skip-two,Greedy,14,0.9764705882352941
+Skip-two,Greedy,15,0.9876543209876543
+Skip-two,Greedy,16,1.0
+Skip-two,Greedy,17,1.0
+Skip-two,Greedy,18,1.0
+Skip-two,Exchange,1,1.0
+Skip-two,Exchange,2,1.0
+Skip-two,Exchange,3,1.0
+Skip-two,Exchange,4,1.0
+Skip-two,Exchange,5,1.0
+Skip-two,Exchange,6,1.0000000000000004
+Skip-two,Exchange,7,1.0
+Skip-two,Exchange,8,1.0
+Skip-two,Exchange,9,1.0
+Skip-two,Exchange,10,1.0
+Skip-two,Exchange,11,1.0
+Skip-two,Exchange,12,1.0
+Skip-two,Exchange,13,1.0
+Skip-two,Exchange,14,0.9764705882352941
+Skip-two,Exchange,15,0.9876543209876543
+Skip-two,Exchange,16,1.0
+Skip-two,Exchange,17,1.0
+Skip-two,Exchange,18,1.0
+Hub,Greedy,1,1.0
+Hub,Greedy,2,0.9310344827586207
+Hub,Greedy,3,1.0
+Hub,Greedy,4,0.96875
+Hub,Greedy,5,1.0
+Hub,Greedy,6,0.9999999999999992
+Hub,Greedy,7,1.0
+Hub,Greedy,8,1.0
+Hub,Greedy,9,0.9999999999999998
+Hub,Greedy,10,1.0
+Hub,Greedy,11,0.9864864864864865
+Hub,Greedy,12,1.0
+Hub,Greedy,13,1.0
+Hub,Greedy,14,1.0
+Hub,Greedy,15,1.0
+Hub,Greedy,16,0.9901960784313723
+Hub,Greedy,17,1.0
+Hub,Greedy,18,0.9827586206896551
+Hub,Exchange,1,1.0
+Hub,Exchange,2,1.0
+Hub,Exchange,3,1.0
+Hub,Exchange,4,1.0
+Hub,Exchange,5,1.0
+Hub,Exchange,6,0.9999999999999992
+Hub,Exchange,7,1.0
+Hub,Exchange,8,1.0
+Hub,Exchange,9,0.9999999999999998
+Hub,Exchange,10,1.0
+Hub,Exchange,11,0.9864864864864865
+Hub,Exchange,12,1.0
+Hub,Exchange,13,1.0
+Hub,Exchange,14,1.0
+Hub,Exchange,15,1.0
+Hub,Exchange,16,0.9999999999999997
+Hub,Exchange,17,1.0
+Hub,Exchange,18,1.0
