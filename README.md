@@ -24,7 +24,6 @@ $$
 ```text
 Replay-Core/
 ├── 📘 README.md                       # Project overview and commands
-├── 🧹 .gitignore
 ├── 🧩 reference_impl/
 │   ├── __init__.py
 │   └── replay_core.py                 # Small-instance exhaustive reference
